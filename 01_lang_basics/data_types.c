@@ -24,4 +24,17 @@ int main()
     // Type conversion
     float rate = 4.01;
     int rateWithoutDec = (int)rate;
+
+    /*
+    TYPE MODIFIERS
+    unsigned - only positive numbers
+    short - half the size of an int
+    long - double the size of an int
+    */
+
+    // F.e. we have a postal code, we know it will be a positive number, so we can use unsigned, and
+    // we know it will be a small number, so we can use short
+    unsigned short postalCode = 12345;
+
+   
 }
